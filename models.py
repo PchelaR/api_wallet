@@ -1,7 +1,8 @@
+import uuid
+
 from sqlalchemy import Column, Integer, DECIMAL
 from sqlalchemy.orm import declarative_base
 from sqlalchemy.dialects.postgresql import UUID
-import uuid
 
 
 Base = declarative_base()
